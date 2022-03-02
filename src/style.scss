@@ -270,7 +270,7 @@ nav{
 //Header
 
 header{
-  padding:  130px 0 0 0;
+  padding:  130px 0 170px 0;
   .home{
     .home-text{
       .name{
@@ -297,7 +297,7 @@ header{
   .abt{
     .abt-text {
       .text{
-        padding-top: 10px;
+        padding-top: 20px;
         .tech{
           width: 70%;
           padding: 0 10px;
@@ -361,7 +361,7 @@ header{
 #project{
   .project{
     .project-items{
-      padding-top: 10px;
+      padding-top: 20px;
       flex-direction: column;
       gap: 60px;
       .item{

@@ -258,7 +258,7 @@ nav .nav-div .nav-bar .menu .cancel div:nth-child(3) {
 }
 
 header {
-  padding: 130px 0 0 0;
+  padding: 130px 0 170px 0;
 }
 header .home .home-text .name {
   font-size: 1.1em;
@@ -274,7 +274,7 @@ header .home .home-text .btn button {
 }
 
 #about .abt .abt-text .text {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 #about .abt .abt-text .text .tech {
   width: 70%;
@@ -329,7 +329,7 @@ header .home .home-text .btn button {
 }
 
 #project .project .project-items {
-  padding-top: 10px;
+  padding-top: 20px;
   flex-direction: column;
   gap: 60px;
 }
