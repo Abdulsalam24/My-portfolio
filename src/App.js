@@ -1,33 +1,20 @@
 import React from 'react'
+import Home from './component/Home'
 
-import Header from './component/header/Header'
-import NavBar from './component/nav/NavBar'
+import NavBar from './component/NavBar'
+import Product from './component/Product'
 
-import About  from './Pages/about/About'
-import Contact from './Pages/contact/Contact'
-import Footer from './Pages/footer/Footer'
-// import  Wiw from './Pages/experience/Wiw'
-import Project from './Pages/project/Project'
+import {Switch , Route} from 'react-router-dom'
 
-
-import Slide from 'react-reveal'
 
 const App = () => {
-
   return (
     <>
-        <NavBar/>
-        <Header/>
-        <Slide left>
-          <About/>
-        </Slide>
-        <Slide bottom>
-          <Project/>
-        </Slide>
-        <Slide left>
-          <Contact/>
-        </Slide>
-        <Footer/>
+      <NavBar/>
+      <Switch>
+        <Route exact path='/' component={<Home/>}/>
+        <Route exact path='/Product' component={<Product/>}/>
+      </Switch>
     </>
   )
 }
